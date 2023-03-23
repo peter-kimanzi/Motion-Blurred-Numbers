@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Motion Blurred Number with CSS / SVG / JS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://codepen.io/konstantindenerz/pen/KKxvdPq.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <input id="slider" class="slider" type="range" min="0" max="20000" step="5000" list="values" value="20000">
+
+  <datalist id="values">
+    <option value="0" label="0"></option>
+    <option value="5000" label="5000"></option>
+    <option value="10000" label="10000"></option>
+    <option value="15000" label="15000"></option>
+    <option value="20000" label="20000"></option>
+  </datalist>
+
+  <div class="number" id="number">
+    <div class="left" id="left"></div>
+    <div class="separator" id="separator">,</div>
+    <div class="right" id="right">0</div>
+  </div>
+</div>
+
+<svg class="svgFilter" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="blurFilter">
+      <feGaussianBlur id="blurFilterItem" in="SourceGraphic" stdDeviation="13,0" />
+    </filter>
+  </defs>
+</svg>
+<!-- partial -->
+  <script src='https://codepen.io/konstantindenerz/pen/KKxvdPq.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

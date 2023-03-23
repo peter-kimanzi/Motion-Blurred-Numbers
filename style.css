@@ -1,0 +1,59 @@
+.number {
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  justify-content: flex-end;
+}
+.number .animate {
+  filter: url("#blurFilter");
+}
+.number .left,
+.number .right {
+  min-width: 11rem;
+  text-align: right;
+}
+.number .right {
+  padding-right: 1rem;
+}
+.number .separator {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+.number .separator.show {
+  opacity: 1;
+}
+
+.svgFilter {
+  display: none;
+}
+
+.slider {
+  accent-color: black;
+  background: red;
+  min-width: min(20rem, 60vw);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #ffc107;
+  font-style: italic;
+  padding: 1;
+  font-weight: bold;
+}
+
+:root {
+  --labs-sys-color-on-background: black;
+}
+
+* {
+  box-sizing: border-box;
+}
