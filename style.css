@@ -28,7 +28,7 @@
 }
 
 .slider {
-  accent-color: black;
+  accent-color: white;
   background: red;
   min-width: min(20rem, 60vw);
 }
@@ -44,14 +44,14 @@ body {
   place-items: center;
   height: 100vh;
   width: 100vw;
-  background: #ffc107;
+  background: rgb(80, 37, 105);
   font-style: italic;
   padding: 1;
   font-weight: bold;
 }
 
 :root {
-  --labs-sys-color-on-background: black;
+  --labs-sys-color-on-background: white;
 }
 
 * {

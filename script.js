@@ -2,7 +2,7 @@ const number = document.getElementById("number");
 const left = document.getElementById("left");
 const rights = document.getElementById("right");
 const slider = document.getElementById("slider");
-let target = 20000;
+let target = 50000;
 let current = 0;
 const step = 42;
 
