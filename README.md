@@ -11,3 +11,5 @@ Motion Blurred Number with CSS
 ## Live site
 
 https://peter-kimanzi.github.io/Motion-Blurred-Numbers/
+
+## Screenshot
