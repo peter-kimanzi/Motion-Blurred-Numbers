@@ -9,3 +9,5 @@ Motion Blurred Number with CSS
 * JavaScript
 
 ## Live site
+
+https://peter-kimanzi.github.io/Motion-Blurred-Numbers/
