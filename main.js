@@ -1,5 +1,5 @@
 (() => {
-    const styleContent = `.labs-follow-me-twitter, .labs-follow-me {
+    const styleContent = `.labs-follow-me {
     transform: scale(0.6);
     position: fixed;
     transition: background 0.3s ease;
