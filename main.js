@@ -1,24 +1,5 @@
 (() => {
-    const styleContent = `.labs-follow-me {
-    transform: scale(0.6);
-    position: fixed;
-    transition: background 0.3s ease;
-    padding: 1rem;
-    right: .25rem;
-    top: .25rem;
-    color: currentColor !important;
-    z-index: 1000000;
-    
-    &:visited, &:active { 
-      color: currentColor;
-    }
-    @media (hover) {
-      &:hover {
-        background: rgba(255, 255, 255, 0.04);
-      }
-    }
-  }
-  `;
+
     const hide = `.labs-follow-me{display: none !important}`;
     const disableAnimations = `
       *, *:before, *:after {animation-play-state: paused !important; --base-speed: 0s; }
