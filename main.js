@@ -31,12 +31,7 @@
     }
   
     let followMeButton = document.createElement("a");
-    followMeButton.classList.add("labs-follow-me-twitter");
-    followMeButton.classList.add("labs-follow-me");
-    document.body.appendChild(followMeButton);
-    followMeButton.href = "https://twitter.com/kdenerz";
-    followMeButton.target = "_top";
-    followMeButton.setAttribute('title', 'Follow me on twitter to see more cool stuff about CSS, JS, Material, Angular and UX/UI design.');
+
     followMeButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="120.726" height="26.592" viewBox="0 0 120.726 26.592">
     <g id="Group_6" data-name="Group 6" transform="translate(1011.043 -1795.939)">
       <path id="Path_37" data-name="Path 37" d="M17.944-11.574c.013.178.013.355.013.533A11.583,11.583,0,0,1,6.294.622,11.583,11.583,0,0,1,0-1.218a8.48,8.48,0,0,0,.99.051A8.209,8.209,0,0,0,6.079-2.919,4.106,4.106,0,0,1,2.246-5.761,5.169,5.169,0,0,0,3.02-5.7,4.335,4.335,0,0,0,4.1-5.838,4.1,4.1,0,0,1,.812-9.86v-.051a4.128,4.128,0,0,0,1.853.52A4.1,4.1,0,0,1,.838-12.8,4.068,4.068,0,0,1,1.4-14.873a11.651,11.651,0,0,0,8.452,4.289,4.627,4.627,0,0,1-.1-.939,4.1,4.1,0,0,1,4.1-4.1,4.089,4.089,0,0,1,2.995,1.294,8.07,8.07,0,0,0,2.6-.99,4.088,4.088,0,0,1-1.8,2.259A8.217,8.217,0,0,0,20-13.693a8.811,8.811,0,0,1-2.056,2.119Z" transform="translate(-1008 1815)" fill="currentColor"/>
